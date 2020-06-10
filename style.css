@@ -8,14 +8,11 @@
 body {
   background-color: #ddb
 }
-
-
 #wrapper {
       max-width: 1000px;
       margin: 0 auto 0 auto;
       background-color: white;
 }
-
 header img {
       width: 100%;
       display: block;
@@ -43,4 +40,38 @@ a.menu:hover {
 article {
       margin-top: 30px;
       margin-bottom: 20px;
+      padding: 0 20px;
+}
+article h1 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 20% 20px 20%;
+    padding-bottom: 15px;
+    border-bottom: 2px solid crimson;
+}
+
+.left {
+  float: left;
+  margin: 0px 10px 10px 0;
+  width: 25%;
+  border-radius: 30% 50%;
+}
+article p {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+iframe {
+  width: 100%;
+}
+
+footer {
+  height: 40px;
+  background-color: darkcyan;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 10px;
 }
